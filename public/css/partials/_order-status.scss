@@ -1,0 +1,230 @@
+// Order status styles
+.order-status-block__ce {
+  font-family: $font-family;
+  line-height: 1.3;
+  font-size: 14px;
+  border-radius: 5px;
+  color: #888;
+  margin: auto;
+  box-sizing: border-box;
+
+  .rate__ce {
+    text-align: center;
+    font-weight: bold;
+    color: $half-white;
+    padding: 10px;
+    background: #344d6a;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 1px solid $one-tenth-black;
+
+    span {
+      color: #fff;
+      font-weight: normal;
+    }
+  }
+
+  .id-bookmark__ce {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    background: #55779f;
+    border-bottom: 1px solid $one-tenth-black;
+
+    .id__ce {
+      color: #fff;
+      font-size: 16px;
+      padding: 10px 0;
+
+      @media (max-width: 499px) {
+        text-align: center;
+      }
+    }
+
+    button.bookmark__ce {
+      @include reset-btn();
+      border-radius: 3px;
+      padding: 10px;
+      background: #5bc0de;
+      color: #fff;
+      text-align: center;
+      opacity: 1;
+
+      &:hover {
+        opacity: 0.7;
+      }
+
+      @media (max-width: 499px) {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+
+  .content__ce {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+
+    .main-text__ce {
+      font-size: 20px;
+      line-height: 1.7;
+
+        .bold__ce {
+          font-weight: bold;
+          color: #333;
+      }
+    }
+
+    .subtext__ce {
+      margin: 10px 0;
+    }
+
+    .deposit-address__ce {
+      font-size: 16px;
+      border-bottom: 1px dotted #ccc;
+      display: inline-block;
+
+      @media (max-width: 499px) {
+        font-size: 14px;
+      }
+
+      @media (max-width: 399px) {
+        font-size: 12px;
+      }
+    }
+
+    .copy-address__ce {
+      display: inline-block;
+      font-size: 16px;
+      margin-left: 5px;
+      cursor: pointer;
+      transition: $transition;
+      opacity: 1;
+
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+
+    .qr-code__ce {
+      display: block;
+      margin: auto;
+      margin-top: 10px;
+    }
+
+    .blockchain-link__ce {
+      @include reset-link();
+      display: inline-block;
+      text-align: center;
+      font-weight: bold;
+      padding: 10px 15px;
+      border-radius: 3px;
+      background: #5cb85c;
+      color: #fff;
+      font-size: 16px;
+      margin: auto;
+      margin-top: 10px;
+      opacity: 1;
+
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+
+    .time__ce {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 2.5px 5px;
+      background: #5cb860;
+      color: #fff;
+      font-size: 12px;
+      font-weight: bold;
+    }
+  }
+
+  .state-block__ce {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+    background: #344d6a;
+    border-radius: 0 0 5px 5px;
+    border-top: 1px solid $one-tenth-black;
+
+    .item__ce {
+      width: 30%;
+      color: $half-white;
+      font-weight: bold;
+      text-align: center;
+      position: relative;
+      padding: 10px 0;
+
+      @media (max-width: 499px) {
+        width: 100%;
+      }
+
+      .icon__ce {
+        font-size: 28px;
+
+        i {
+          font-family: 'FontAwesome';
+        }
+      }
+    }
+
+    .item__ce.active__ce {
+      color: #fff;
+      -webkit-animation: flicker-animation 1s infinite;
+      -moz-animation: flicker-animation 1s infinite;
+    }
+
+    .item__ce.done__ce {
+      color: #5cb85c;
+
+      &:after {
+        content: '\f058';
+        font-family: 'FontAwesome';
+        position: absolute;
+        display: inline-block;
+        font-size: 28px;
+        top: 0;
+        right: calc(50% - 72px);
+      }
+    }
+
+    .item__ce.error__ce {
+      color: #a94442;
+    }
+
+    .progress__ce {
+      margin-top: 10px;
+      height: 15px;
+      width: 100%;
+      background: #233447;
+      border-radius: 5px;
+
+      .step1__ce {
+        width: 50%;
+        background: #45668c;
+        display: block;
+        float: left;
+        height: 15px;
+        border-radius: 5px 0 0 5px;
+        font-size: 0;
+      }
+
+      .step2__ce {
+        width: 50%;
+        background: #45668c;
+        display: block;
+        height: 15px;
+        border-radius: 0 5px 5px 0;
+        font-size: 0;
+        float: right;
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+// Admin popup styles
+#wpadminbar {
+  z-index: 999;
+}
+
+#adminmenuwrap {
+  z-index: 990;
+}
+
+.mfp-container {
+  padding: 0;
+}
+
+.mfp-content {
+  height: 100%;
+}
+
+.view-api-response__ce {
+  background: #fff;
+  position: relative;
+  max-width: 500px;
+  height: auto;
+  min-height: 200px;
+  padding: 20px;
+  margin: auto;
+  margin-top: 50px;
+  
+  .mfp-close {
+    @include reset-btn();
+    font-weight: bold;
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    top: 0;
+    right: 0;
+    color: #888;
+    opacity: 0.7;
+    
+    &:hover,
+    &:focus {
+      opacity: 1;
+    }
+  }
+}
+
+td.coin-alert-block__ce {
+  padding: 0 10px 0 0;
+}
+
+.coin-alert__ce {
+  position: relative;
+  width: 25em;
+  margin-bottom: 20px;
+  
+  textarea.alert__ce {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .remove-coin-alert__ce {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #ff6262;
+    cursor: pointer;
+    font-size: 18px;
+  }
+}
+
+.coin-alert__ce.sample-coin-alert__ce {
+  display: none;
+}

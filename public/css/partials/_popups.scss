@@ -1,0 +1,266 @@
+// Coins popup styles
+#wpadminbar {
+  z-index: 999;
+}
+
+.mfp-container {
+  padding: 0;
+}
+
+.mfp-content {
+  height: 100%;
+}
+
+.coins-popup__ce {
+  font-family: $font-family;
+  line-height: 1.3;
+  font-size: 14px;
+  position: relative;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  
+  .mfp-close {
+    @include reset-btn();
+    font-weight: bold;
+    font-size: 48px;
+    width: 48px;
+    height: 48px;
+    top: 20px;
+    right: 10px;
+    color: #888;
+    opacity: 0.7;
+    
+    @media (max-width: 649px) {
+      font-size: 36px;
+      width: 36px;
+      height: 36px;
+      top: 0;
+      right: 0;
+    }
+    
+    &:hover,
+    &:focus {
+      opacity: 1;
+    }
+  }
+  
+  input.search-coins__ce {
+    @include reset-input();
+    padding: 20px;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    
+    &::-webkit-input-placeholder { color: #888; }
+    &::-moz-placeholder { color: #888; }
+    &:-ms-input-placeholder { color: #888; }
+    &:-moz-placeholder { color: #888; }
+    
+    &:focus {
+      border-bottom: 1px solid #e5e5e5;
+      color: #333;
+    }
+  }
+  
+  .coins-list__ce {
+    padding: 20px 10px;
+    color: #888;
+    overflow-y: auto;
+    height: calc(100% - 83px);
+    
+    .coin__ce {
+      width: 23%;
+      float: left;
+      text-align: center;
+      border-radius: 5px;
+      border: 2px solid #d4d9dd;
+      padding: 30px 10px 15px 10px;
+      box-sizing: border-box;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      margin: 0 1% 20px 1%;
+      position: relative;
+      
+      @media (max-width: 999px) {
+        width: 31.333%;
+      }
+      
+      @media (max-width: 649px) {
+        width: 48%;
+      }
+      
+      @media (max-width: 449px) {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+      }
+      
+      &:hover {
+        border: 2px solid #5cb860;
+      }
+      
+      img {
+        display: block;
+        margin: auto;
+        max-height: 100px;
+        margin-bottom: 20px;
+      }
+      
+      .name__ce {
+        font-weight: bold;
+        font-size: 14px;
+      }
+      
+      .unavailable-text__ce {
+        font-weight: bold;
+        font-size: 24px;
+        text-transform: uppercase;
+        display: none;
+        color: #888;
+        position: absolute;
+        top: calc(50% - 36px);
+        width: 100%;
+        left: 0;
+      }
+    }
+    
+    .coin__ce.unavailable__ce {
+      cursor: not-allowed;
+      
+      &:hover {
+        border: 2px solid #d4d9dd;
+      }
+      
+      img, .name__ce {
+        opacity: 0.3;
+      }
+      
+      .unavailable-text__ce {
+        display: block;
+      }
+    }
+  }
+}
+
+.bookmark-popup__ce {
+  font-family: $font-family;
+  line-height: 1.3;
+  font-size: 14px;
+  position: relative;
+  background: #fff;
+  max-width: 500px;
+  height: auto;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 5px;
+  
+  .mfp-close {
+    @include reset-btn();
+    font-weight: bold;
+    font-size: 36px;
+    width: 36px;
+    height: 36px;
+    top: 10px;
+    right: 10px;
+    color: #888;
+    opacity: 0.7;
+    
+    &:hover,
+    &:focus {
+      opacity: 1;
+    }
+  }
+  
+  .header__ce {
+    font-weight: bold;
+    color: #888;
+    font-size: 18px;
+    padding: 20px;
+    border-bottom: 1px solid #e5e5e5; 
+  }
+  
+  .content__ce {
+    padding: 20px;
+    
+    .info__ce {
+      font-size: 14px;
+      color: #888;
+      margin-bottom: 10px;
+    }
+    
+    .link-block__ce {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+      .link__ce {
+        @include reset-input();
+        border: 1px solid #e5e5e5;
+        padding: 5px;
+        color: #333;
+        background: #eee;
+        width: 100%;
+      }
+      
+      .copy-link__ce {
+        font-size: 16px;
+        margin-left: 10px;
+        cursor: pointer;
+        transition: $transition;
+        color: #888;
+
+        &:hover {
+          color: #333;
+        }
+      }
+    }
+  }
+}
+
+.alert-popup__ce {
+  font-family: $font-family;
+  line-height: 1.3;
+  font-size: 14px;
+  position: relative;
+  background: #fff;
+  max-width: 500px;
+  height: auto;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 5px;
+  
+  .mfp-close {
+    @include reset-btn();
+    font-weight: bold;
+    font-size: 36px;
+    width: 36px;
+    height: 36px;
+    top: 10px;
+    right: 10px;
+    color: #888;
+    opacity: 0.7;
+    
+    &:hover,
+    &:focus {
+      opacity: 1;
+    }
+  }
+  
+  .header__ce {
+    font-weight: bold;
+    color: #888;
+    font-size: 18px;
+    padding: 20px;
+    border-bottom: 1px solid #e5e5e5; 
+  }
+  
+  .content__ce {
+    padding: 20px;
+    
+    .warning__ce {
+      text-transform: uppercase;
+    }
+  }
+}

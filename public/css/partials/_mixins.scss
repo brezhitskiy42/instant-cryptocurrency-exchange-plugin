@@ -1,0 +1,38 @@
+@mixin reset-btn() {
+  box-shadow: none;
+  outline: none;
+  background: none;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-family: $font-family;
+  font-size: 14px;
+  text-shadow: none;
+  font-weight: normal;
+  transition: $transition;
+  text-align: center;
+  cursor: pointer;
+  border: 0;
+}
+
+@mixin reset-input() {
+  border: 0;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  font-family: $font-family;
+  font-size: 14px;
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
+  transition: $transition;
+}
+
+@mixin reset-link() {
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  transition: $transition;
+}

@@ -1,0 +1,354 @@
+# Copyright (C) 2018 Instant Cryptocurrency Exchange
+# This file is distributed under the same license as the Instant Cryptocurrency Exchange package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Instant Cryptocurrency Exchange\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/class-activation.php:66
+msgid "<p>PHP %s+ is required to use <b>%s</b> plugin. You have %s installed.</p>"
+msgstr ""
+
+#: includes/class-activation.php:73
+msgid "Folder <b>%s</b> is not writable, please set the permissions accordingly."
+msgstr ""
+
+#: includes/class-activation.php:131
+msgid "Error while creating a table. Please, try again."
+msgstr ""
+
+#: includes/class-admin.php:72, includes/class-admin.php:72, includes/class-crypto-exchange.php:101
+msgid "Instant Crypto Exchange"
+msgstr ""
+
+#: includes/class-admin.php:73, includes/class-admin.php:73, includes/class-crypto-exchange.php:113
+msgid "Transactions"
+msgstr ""
+
+#: includes/class-admin.php:74, includes/class-admin.php:74
+msgid "Settings"
+msgstr ""
+
+#: includes/class-admin.php:84
+msgid "Usage"
+msgstr ""
+
+#: includes/class-admin.php:89
+msgid "FAQ"
+msgstr ""
+
+#: includes/class-admin.php:102
+msgid "Main settings"
+msgstr ""
+
+#: includes/class-admin.php:103
+msgid "Coins warnings"
+msgstr ""
+
+#: includes/class-admin.php:108
+msgid "ShapeShift affiliate key"
+msgstr ""
+
+#: includes/class-admin.php:109, includes/class-crypto-exchange.php:105
+msgid "Default coin (from)"
+msgstr ""
+
+#: includes/class-admin.php:110, includes/class-crypto-exchange.php:106
+msgid "Default coin (to)"
+msgstr ""
+
+#: includes/class-admin.php:111
+msgid "Background"
+msgstr ""
+
+#: includes/class-admin.php:112
+msgid "Order page slug"
+msgstr ""
+
+#: includes/class-admin.php:113
+msgid "Terms and Conditions page"
+msgstr ""
+
+#: includes/class-admin.php:114
+msgid "Enqueue scripts in"
+msgstr ""
+
+#: includes/class-admin.php:116
+msgid "Coin alert"
+msgstr ""
+
+#: includes/class-admin.php:236, includes/class-admin.php:265
+msgid "Empty value."
+msgstr ""
+
+#: includes/class-crypto-exchange.php:102
+msgid "Crypto exchange form"
+msgstr ""
+
+#: includes/class-crypto-exchange.php:103
+msgid "Coins Settings"
+msgstr ""
+
+#: includes/class-crypto-exchange.php:104
+msgid "Color Settings"
+msgstr ""
+
+#: includes/class-crypto-exchange.php:107
+msgid "Foreground Color"
+msgstr ""
+
+#: includes/class-crypto-exchange.php:108
+msgid "Background Color"
+msgstr ""
+
+#: includes/class-crypto-exchange.php:109
+msgid "The exchange form will be fully displayed only when viewing the page"
+msgstr ""
+
+#: includes/class-crypto-exchange.php:110
+msgid "Crypto exchange transactions"
+msgstr ""
+
+#: includes/class-crypto-exchange.php:111
+msgid "Transactions Settings"
+msgstr ""
+
+#: includes/class-crypto-exchange.php:112
+msgid "Max number of transactions"
+msgstr ""
+
+#: includes/class-crypto-exchange.php:114
+msgid "All"
+msgstr ""
+
+#: includes/class-crypto-exchange.php:115
+msgid "This website only"
+msgstr ""
+
+#: includes/class-crypto-exchange.php:116
+msgid "Transactions will be fully displayed only when viewing the page"
+msgstr ""
+
+#: includes/class-crypto-exchange.php:161
+msgid "Order ID"
+msgstr ""
+
+#: public/partials/alert-popup.php:8
+msgid "Warning!"
+msgstr ""
+
+#: public/partials/alert-popup.php:10
+msgid "Warning:"
+msgstr ""
+
+#: public/partials/bookmark-popup.php:8
+msgid "Bookmark This Page"
+msgstr ""
+
+#: public/partials/bookmark-popup.php:10
+msgid "To bookmark this page press CMD+D, or you can copy the link from below. You can always come back to this link later to check your status."
+msgstr ""
+
+#: public/partials/bookmark-popup.php:13, public/partials/step3.php:29
+msgid "Copied!"
+msgstr ""
+
+#: public/partials/coins-popup.php:8
+msgid "Search by coin name or symbol"
+msgstr ""
+
+#: public/partials/coins-popup.php:20
+msgid "Temporarily unavailable"
+msgstr ""
+
+#: public/partials/step1.php:9
+msgid "Choose coins to exchange"
+msgstr ""
+
+#: public/partials/step1.php:12
+msgid "Deposit"
+msgstr ""
+
+#: public/partials/step1.php:17
+msgid "Quick"
+msgstr ""
+
+#: public/partials/step1.php:21
+msgid "Receive"
+msgstr ""
+
+#: public/partials/step1.php:26
+msgid "Precise"
+msgstr ""
+
+#: public/partials/step1.php:30
+msgid "Continue"
+msgstr ""
+
+#: public/partials/step2.php:10
+msgid "Instant Rate"
+msgstr ""
+
+#: public/partials/step2.php:13
+msgid "Your Rate"
+msgstr ""
+
+#: public/partials/step2.php:17
+msgid "Deposit Min"
+msgstr ""
+
+#: public/partials/step2.php:21
+msgid "Deposit Max"
+msgstr ""
+
+#: public/partials/step2.php:26
+msgid "Deposit This"
+msgstr ""
+
+#: public/partials/step2.php:30
+msgid "To Get This"
+msgstr ""
+
+#: public/partials/step2.php:35
+msgid "Miner Fee"
+msgstr ""
+
+#: public/partials/step2.php:56
+msgid "Deposit Amount"
+msgstr ""
+
+#: public/partials/step2.php:57
+msgid "Receive Amount"
+msgstr ""
+
+#: public/partials/step2.php:61
+msgid "Your %s Address (destination address)"
+msgstr ""
+
+#: public/partials/step2.php:62
+msgid "Your %s Refund Address"
+msgstr ""
+
+#: public/partials/step2.php:64
+msgid "I agree to the <a href=\"%s\" target=\"_blank\">Terms and Conditions</a>."
+msgstr ""
+
+#: public/partials/step2.php:66
+msgid "Market data is not available, please try again later or choose other coins."
+msgstr ""
+
+#: public/partials/step2.php:68
+msgid "Amount is below the minimum limit."
+msgstr ""
+
+#: public/partials/step2.php:69
+msgid "Amount is above the maximum limit."
+msgstr ""
+
+#: public/partials/step2.php:70
+msgid "All fields are required."
+msgstr ""
+
+#: public/partials/step2.php:71
+msgid "There was an error while processing your data."
+msgstr ""
+
+#: public/partials/step2.php:72
+msgid "Start Transaction"
+msgstr ""
+
+#: public/partials/step3.php:9, public/partials/step4.php:9
+msgid "Current Exchange Rate"
+msgstr ""
+
+#: public/partials/step3.php:12, public/partials/step4.php:12, public/partials/step5.php:8
+msgid "Final Exchange Rate:"
+msgstr ""
+
+#: public/partials/step3.php:15, public/partials/step4.php:15, public/partials/step5.php:10
+msgid "Order ID: %s"
+msgstr ""
+
+#: public/partials/step3.php:16, public/partials/step4.php:16, public/partials/step5.php:11
+msgid "Bookmark"
+msgstr ""
+
+#: public/partials/step3.php:21
+msgid "Send any amount<br>from <span class=\"bold__ce from-amount__ce\">%s</span> %s to <span class=\"bold__ce to-amount__ce\">%s</span> %s<br>to the address below"
+msgstr ""
+
+#: public/partials/step3.php:24
+msgid "Send <span class=\"bold__ce\">%s</span> %s to the address below"
+msgstr ""
+
+#: public/partials/step3.php:25
+msgid "Time Remaining"
+msgstr ""
+
+#: public/partials/step3.php:27
+msgid "The whole amount should be sent as one transaction"
+msgstr ""
+
+#: public/partials/step3.php:35
+msgid "Time has expired, no deposit received"
+msgstr ""
+
+#: public/partials/step3.php:40
+msgid "There was an error during sending deposit"
+msgstr ""
+
+#: public/partials/step3.php:41
+msgid "Your amount will be refund"
+msgstr ""
+
+#: public/partials/step3.php:47
+msgid "Awaiting Deposit"
+msgstr ""
+
+#: public/partials/step3.php:51, public/partials/step4.php:29
+msgid "Awaiting Exchange"
+msgstr ""
+
+#: public/partials/step4.php:19
+msgid "<span class=\"bold__ce\">%s</span> %s successfully received!"
+msgstr ""
+
+#: public/partials/step4.php:20
+msgid "Please wait while we are exchanging it for you"
+msgstr ""
+
+#: public/partials/step4.php:25, public/partials/step5.php:20
+msgid "Pending Confirmations"
+msgstr ""
+
+#: public/partials/step5.php:14
+msgid "<span class=\"bold__ce\">%s</span> %s was sent!"
+msgstr ""
+
+#: public/partials/step5.php:15
+msgid "See it on the blockchain"
+msgstr ""
+
+#: public/partials/step5.php:24
+msgid "Exchange Complete"
+msgstr ""
+
+#: public/partials/step5.php:28
+msgid "All Done!"
+msgstr ""
+
+#: public/partials/transactions.php:8
+msgid "Recent Transactions"
+msgstr ""
+
+#: public/partials/transactions.php:22
+msgid "to"
+msgstr ""

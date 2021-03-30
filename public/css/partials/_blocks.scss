@@ -1,0 +1,39 @@
+// Blocks styles
+.crypto-exchange-blocks__ce {
+  .coins-icons__ce {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+    .coin-icon__ce {
+      margin-bottom: 10px;
+
+      img {
+        display: block;
+        max-width: 64px;
+        height: auto;
+      }
+    }
+
+    .coin-icon-exchange__ce {
+      margin: 0 10px;
+      font-size: 28px;
+    }
+  }
+
+  .subtext__ce {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+.components-base-control {
+  .default-coin-select__ce {
+    input[type="text"] {
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }
+}
